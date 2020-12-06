@@ -1,0 +1,10 @@
+delete|delete.svg|X|チーム\teamのキャラを全部解除します。|clearTeam(\team)|minus
+random|random.svg|?|チーム\teamにランダムにキャラを加えます。|addChar(new Array("Grave","Jaina","Geiger","Argagarg","Setsuki","Valerie","Rook","Midori","Lum","DeGrey","Quince","Onimaru")[Math.floor(Math.random()*12)],\team)|plus
+zoners|zoners.svg|Cloud|チーム\teamに「間合いどり」キャラを加えます。|addChar("Grave",\team);addChar("Jaina",\team);addChar("Geiger",\team);addChar("Argagarg",\team)|plus
+rushdowns|rushdowns.svg|Paintbrush|チーム\teamに「攻め込み」キャラを加えます。|addChar("Setsuki",\team);addChar("Valerie",\team)|plus
+grapplers|grapplers.svg|Hug|チーム\teamに「グラップラー」キャラを加えます。|addChar("Rook",\team);addChar("Midori",\team)|plus
+wildcards|wildcards.svg|Dice|チーム\teamに「ワイルドカード」キャラを加えます。|addChar("Lum",\team);addChar("DeGrey",\team);addChar("Quince",\team);addChar("Onimaru",\team)|plus
+flagstone|flagstone.svg|Crown|チーム\teamに「フラグストン」キャラを加えます。|addChar("Quince",\team);addChar("Onimaru",\team)|plus
+all|all.svg|\team00%|チーム\teamに全キャラを加えます。|addChar("Grave",\team);addChar("Jaina",\team);addChar("Geiger",\team);addChar("Argagarg",\team);addChar("Setsuki",\team);addChar("Valerie",\team);addChar("Rook",\team);addChar("Midori",\team);addChar("Lum",\team);addChar("DeGrey",\team);addChar("Quince",\team);addChar("Onimaru",\team)|plus
+left|left.svg|Left Arrow|チーム\teamに、キャラセレクトの左/上半分のキャラを加えます。|addChar("Grave",\team);addChar("Geiger",\team);addChar("Setsuki",\team);addChar("Rook",\team);addChar("Lum",\team);addChar("Quince",\team)|plus
+right|right.svg|Right Arrow|チーム\teamに、キャラセレクトの右/下のキャラを加えます。|addChar("Jaina",\team);addChar("Argagarg",\team);addChar("Valerie",\team);addChar("Midori",\team);addChar("DeGrey",\team);addChar("Onimaru",\team)|plus

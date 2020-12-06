@@ -1,0 +1,54 @@
+name:                gardener-of-chaos
+version:             0.1.0.0
+github:              "StaccatoSemibreve/Gardener-of-Chaos"
+license:             BSD3
+author:              "janet"
+maintainer:          "staccato.semibreve@protonmail.com"
+copyright:           "janet"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            blah
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/StaccatoSemibreve/Gardener-of-Chaos#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- text
+- directory
+- filepath
+- formatting
+- cmark-gfm
+- lucid
+
+library:
+  source-dirs: src
+
+executables:
+  gardener-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - gardener-of-chaos
+
+tests:
+  gardener-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - gardener-of-chaos

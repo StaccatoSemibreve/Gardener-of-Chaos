@@ -1,0 +1,59 @@
+			p, h1 {
+				font-family: sans-serif;
+				color: #daba69;
+				line-height: 30px;
+			}
+			input, button, textarea {
+				font-family: sans-serif;
+				color: #daba69;
+				height: 40px;
+				background-color: #000000;
+				padding: 6px 8px;
+				border-radius: 10px;
+			}
+			
+			@media only screen and (min-width:1000px) {
+				div#center-div {
+					max-width: 1000px;
+					margin: auto;
+				}
+				body {
+					background: linear-gradient(90deg, #0f0d0c, #0f0d0c calc(50% - 525px), #1e1b19 calc(50% - 525px), #1e1b19 calc(50% + 525px), #0f0d0c calc(50% + 525px));
+				}
+			}
+			@media only screen and (min-width:650px) and (max-width:1000px) {
+				div#center-div {
+					max-width: 600px;
+					margin: auto;
+				}
+				body {
+					background: linear-gradient(90deg, #0f0d0c, #0f0d0c calc(50% - 325px), #1e1b19 calc(50% - 325px), #1e1b19 calc(50% + 325px), #0f0d0c calc(50% + 325px));
+				}
+			}
+			@media only screen and (min-width:500px) and (max-width:650px) {
+				div#center-div {
+					max-width: 450px;
+					margin: auto;
+				}
+				body {
+					background: linear-gradient(90deg, #0f0d0c, #0f0d0c calc(50% - 250px), #1e1b19 calc(50% - 250px), #1e1b19 calc(50% + 250px), #0f0d0c calc(50% + 250px));
+				}
+			}
+			@media only screen and (min-width:350px) and (max-width:500px) {
+				div#center-div {
+					max-width: 300px;
+					margin: auto;
+				}
+				body {
+					background: linear-gradient(90deg, #0f0d0c, #0f0d0c calc(50% - 175px), #1e1b19 calc(50% - 175px), #1e1b19 calc(50% + 175px), #0f0d0c calc(50% + 175px));
+				}
+			}
+			@media only screen and (max-width:350px) {
+				div#center-div {
+					max-width: 90%;
+					margin: auto;
+				}
+				body {
+					background-color: #1e1b19;
+				}
+			}

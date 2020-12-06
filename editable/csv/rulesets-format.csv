@@ -1,0 +1,16 @@
+Deck|Single battle, best of 3. After each game, both players must switch character. No characters may be used more than once.|
+Choose Your Enemy, aka Cursed, aka Vice Versus|Team battle, best of 1. Each player chooses their opponent's characters.|GRAG
+Roll the Dice|Single battle, best of 3, standard counterpick. Roll a d6 (physical or digital) to select your character. The loser of a game can "counterpick" by repeating the process.|
+Democracy|Single battle, best of 3. Each player chooses their opponent's character, and the loser of a game may counterpick by changing their opponent's character.|
+Mirror Mayhem|Single battle, best of 3, standard counterpicks. Both players must pick the same character, chosen randomly from the cast. After losing a game, a player may counterpick by repeating the random selection process for both players.|
+The Many and the Few|A random number is picked from 1-5 at the start of each match. That is how many characters are in the players' teams, using [a team battle manager.](teams) If 1, simply do a 1v1 match. Best of 1, unless it's 1v1 in which case best of 3.|
+Simplify|Team battle, best of 3. A player who hasn't lost any games has 3 characters in their team, a player who has lost a game has 2, managed by [a team battle manager.](teams)|Daniel Stretulch
+Lawful|The players must choose a ruleset to use for every potential game in the match (chosen before the match starts).|
+Chaotic|The players must use a ruleset chosen at random using [a random selector](random) for every potential game in the match (chosen before the match starts).|
+Teams|Single battle, best of 3, no counterpicks. All players in the entire tournament round, if they agree, are grouped into two teams (opponents in a match are always on opposite teams), where they must each play a fixed character. The teams play sequential matches against each other according to [a team battle manager](teams) until one team wins.|
+Play Fair|Single battle, best of 3, standard counterpick. At the start of the match, both players are separately assigned a random (non-mirror) ruleset. Outside of any necessary interaction dictated by that ruleset, they should not tell their opponent what their ruleset is. As part of the counterpick process, a player may also reroll their ruleset.|Ritielko
+You Are What You Beat|Single battle, best of 3, no counterpick. Both players' starting characters are chosen at random. Upon completing a game, the player that wins will change to their opponent's character for the next game, and the player that loses rerolls a new character.|fuu buu
+Your Own Worst Enemy|Single battle, best of 3, no counterpick. Both players' starting characters are chosen at random. Upon completing a game, the player that loses will change to their opponent's character for the next game, and the player that wins rerolls a new character.|ErickDRedd
+Best Three of Four|Team battle, best of 1. Each player chooses 4 characters - their opponent will remove one of those characters, leaving them with their final team.|
+BBBest Match|Single battle, best of 3, standard counterpick. Neither player may use their A, C, or super moves. If their B move can be modified by a forbidden button, that's allowed.|Jobert and Remy
+Abnormalcy|Single battle, best of 3, standard counterpick. Neither player may use your A button.|grbsh

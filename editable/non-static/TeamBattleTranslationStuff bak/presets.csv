@@ -1,0 +1,10 @@
+delete|delete.svg|X|Clear all characters from Team \team.|clearTeam(\team)|minus
+random|random.svg|?|Add a random character to Team \team.|addChar(new Array("Grave","Jaina","Geiger","Argagarg","Setsuki","Valerie","Rook","Midori","Lum","DeGrey","Quince","Onimaru")[Math.floor(Math.random()*12)],\team)|plus
+zoners|zoners.svg|Cloud|Add the zoners to Team \team.|addChar("Grave",\team);addChar("Jaina",\team);addChar("Geiger",\team);addChar("Argagarg",\team)|plus
+rushdowns|rushdowns.svg|Paintbrush|Add the rushdowns to Team \team.|addChar("Setsuki",\team);addChar("Valerie",\team)|plus
+grapplers|grapplers.svg|Hug|Add the grapplers to Team \team.|addChar("Rook",\team);addChar("Midori",\team)|plus
+wildcards|wildcards.svg|Dice|Add the wildcards to Team \team.|addChar("Lum",\team);addChar("DeGrey",\team);addChar("Quince",\team);addChar("Onimaru",\team)|plus
+flagstone|flagstone.svg|Crown|Add the Flagstone tyrants to Team \team.|addChar("Quince",\team);addChar("Onimaru",\team)|plus
+all|all.svg|\team00%|Add every character to Team \team.|addChar("Grave",\team);addChar("Jaina",\team);addChar("Geiger",\team);addChar("Argagarg",\team);addChar("Setsuki",\team);addChar("Valerie",\team);addChar("Rook",\team);addChar("Midori",\team);addChar("Lum",\team);addChar("DeGrey",\team);addChar("Quince",\team);addChar("Onimaru",\team)|plus
+left|left.svg|Left Arrow|Add the characters from the left/top of the in-game selector to Team \team.|addChar("Grave",\team);addChar("Geiger",\team);addChar("Setsuki",\team);addChar("Rook",\team);addChar("Lum",\team);addChar("Quince",\team)|plus
+right|right.svg|Right Arrow|Add the characters from the right/bottom of the in-game selector to Team \team.|addChar("Jaina",\team);addChar("Argagarg",\team);addChar("Valerie",\team);addChar("Midori",\team);addChar("DeGrey",\team);addChar("Onimaru",\team)|plus

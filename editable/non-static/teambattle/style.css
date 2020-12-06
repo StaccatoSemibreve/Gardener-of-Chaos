@@ -1,0 +1,157 @@
+body {
+	background-color: #1e1b19;
+}
+
+p, h1, h2 {
+	font-family: sans-serif;
+	color: #daba69;
+	line-height: 30px;
+}
+
+button, input {
+	font-family: sans-serif;
+	background-color: #000000;
+	color: #daba69;
+	border-radius: 10px;
+}
+
+@media only screen and (min-width:1050px) {
+	body {
+		background: linear-gradient(90deg, #0f0d0c, #0f0d0c calc(50% - 550px), #1e1b19 calc(50% - 550px), #1e1b19 calc(50% + 550px), #0f0d0c calc(50% + 550px));
+	}
+}
+@media only screen and (max-width:450px) {
+	main {
+		display: none;
+	}
+}
+
+div.grid {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-rows: 80px 40px 100px 40px 100px 20px 100px 20px 100px 20px;
+	grid-template-areas:	"title"
+							"team1Title"
+							"team1"
+							"team2Title"
+							"team2"
+							"."
+							"start"
+							"."
+							"versus"
+							"."
+							"archive";
+	width: 95%;
+	min-width: 400px;
+	margin: auto;
+}
+.title {
+	text-align: center;
+}
+#titleGoc {
+	grid-area: title;
+}
+#titleTeam1 {
+	grid-area: team1Title;
+}
+#titleTeam2 {
+	grid-area: team2Title;
+}
+#versus {
+	grid-area: versus;
+	display: grid;
+	grid-template-columns: 100px 50px 100px;
+	height: 100px;
+	grid-template-areas: "team1 vs team2";
+	margin: auto;
+}
+#versuswin {
+	grid-area: versus;
+	display: grid;
+	grid-template-columns: 100px 50px 100px;
+	height: 100px;
+	grid-template-areas: "all all all";
+	margin: auto;
+}
+.vs#team1 {
+	grid-area: team1;
+}
+.vs#vs {
+	text-align: center;
+	margin: auto;
+}
+.vs#vsdiv {
+	grid-area: vs;
+	margin: auto;
+	margin-top: 35px;
+	height: 100px;
+}
+.vs#team2 {
+	grid-area: team2;
+}
+#start {
+	grid-area: start;
+	display: grid;
+	grid-template-rows: 40px 100px;
+	grid-template-areas:	"button"
+							"text";
+	margin: 0 auto;
+}
+#startbutton {
+	width: 200px;
+	margin: 0 auto;
+}
+.icon {
+	width: auto;
+	max-width: 100px;
+	object-fit: contain;
+}
+.check {
+	position: relative;
+	top: -50%;
+	opacity: 100%;
+}
+.team {
+	display: flex;
+	flex-flow:row nowrap;
+	margin:auto;
+	max-width: 90%;
+}
+.overlay_char {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: green;
+	color: white;
+	top: -104px;
+}
+.overlay_char:hover {
+	opacity:60%;
+}
+
+.spoilerbutton {
+	display:block;
+	margin:auto;
+	width: 200px;
+	height: 40px;
+}
+.spoiler {
+	overflow:hidden;
+	margin: auto;
+}
+.spoilerbutton[value="Show Past Games"] + .spoiler > div {
+	display: none;
+}
+#archive-spoiler {
+	grid-area: archive;
+	margin: auto;
+}
+.archive {
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px;
+	grid-template-rows: 100px;
+	grid-template-areas: "left team1 team2 right";
+	height: 100px;
+}

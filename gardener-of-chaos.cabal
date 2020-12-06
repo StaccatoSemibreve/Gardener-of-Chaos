@@ -1,0 +1,80 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.2.
+--
+-- see: https://github.com/sol/hpack
+
+name:           gardener-of-chaos
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/StaccatoSemibreve/Gardener-of-Chaos#readme>
+homepage:       https://github.com/StaccatoSemibreve/Gardener-of-Chaos#readme
+bug-reports:    https://github.com/StaccatoSemibreve/Gardener-of-Chaos/issues
+author:         janet
+maintainer:     staccato.semibreve@protonmail.com
+copyright:      janet
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/StaccatoSemibreve/Gardener-of-Chaos
+
+library
+  exposed-modules:
+      IO
+      Lib
+      Printer
+  other-modules:
+      Paths_gardener_of_chaos
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , cmark-gfm
+    , directory
+    , filepath
+    , formatting
+    , lucid
+    , text
+  default-language: Haskell2010
+
+executable gardener-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_gardener_of_chaos
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , cmark-gfm
+    , directory
+    , filepath
+    , formatting
+    , gardener-of-chaos
+    , lucid
+    , text
+  default-language: Haskell2010
+
+test-suite gardener-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_gardener_of_chaos
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , cmark-gfm
+    , directory
+    , filepath
+    , formatting
+    , gardener-of-chaos
+    , lucid
+    , text
+  default-language: Haskell2010

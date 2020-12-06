@@ -1,0 +1,62 @@
+    <main>
+		<div id="center-div">
+			<h1>The Garden of Chaos</h1>
+					<form id="seeding" onsubmit 'return false'>
+						Seed (0 or No Submit = Random Seed): 
+						<input type="number" id="seed" placeholder="Randomiser Seed" value=0 min=0 />
+						<input type="button" value="Randomise Seed" onclick='randomiseSeed()'/>
+						<input type="button" value="Submit Seed" onclick='initSeed()'/>
+					</form>
+					<div id="teams" style="display:none">
+						<div id="team1div">
+						<p>Team 1:</p>
+						<form id="team1" onsubmit='return false'>
+							<input type="number" id="team1Size" placeholder="Team Size" min="1"/>
+							<input type="button" value="Submit Team 1 Size" onclick="setTeam1Size()"/>
+							or
+							<select id="team1Presets">
+								<option value=0>Full Cast</option>
+								<option value=1>Zoners</option>
+								<option value=2>Rushdowns</option>
+								<option value=3>Grapplers</option>
+								<option value=4>Wildcards</option>
+								<option value="random">Random Team</option>
+								<option value="5">The Left Side</option>
+								<option value="6">The Right Side</option>
+							</select>
+							<input type="button" value="Submit Team 1 Preset" onclick="setTeam1Preset()"/>
+						</form>
+						</div>
+
+						<br>
+
+						<div id="team2div">
+						<p>Team 2:</p>
+						<form id="team2" onsubmit='return false'>
+							<input type="number" id="team2Size" placeholder="Team Size" min="0"/>
+							<input type="button" value="Submit Team 2 Size" onclick="setTeam2Size()"/>
+							or
+							<select id="team2Presets">
+								<option value=0>Full Cast</option>
+								<option value=1>Zoners</option>
+								<option value=2>Rushdowns</option>
+								<option value=3>Grapplers</option>
+								<option value=4>Wildcards</option>
+								<option value="random">Random Team</option>
+								<option value="5">The Left Side</option>
+								<option value="6">The Right Side</option>
+							</select>
+							<input type="button" value="Submit Team 2 Preset" onclick="setTeam2Preset()"/>
+						</form>
+						</div>
+						
+						<br>
+						<div id="team1Remaining">
+						</div>
+						
+						<br>
+						<div id="team2Remaining">
+						</div>
+					</div>
+		</div>
+    </main>

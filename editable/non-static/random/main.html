@@ -1,0 +1,15 @@
+    <main>
+		<div id="center-div">
+			<h1>Randomiser</h1>
+			<form id="rng" onsubmit='return false'>
+				<select id="operator">
+					<option value="Tournament Style">Tournament Style</option>
+					<option value="Character">Character</option>
+					<option value="Ruleset">Ruleset</option>
+					<option value="Play Fair">Ruleset (Play Fair)</option>
+				</select>
+				<input type="text" id="result" placeholder="Result" size="42"></input>
+				<input type="submit" id="gen" value="Generate!" onclick='generate()'></input>
+			</form>
+		</div>
+    </main>
