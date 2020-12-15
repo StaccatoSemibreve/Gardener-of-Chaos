@@ -17,3 +17,7 @@ Any line in an input file of the form "!!!\[ CSV file, excluding .csv ]|\[ forma
 After running this, simply drag all the created HTML files (including any in subfolders, such as the "thoughts" subfolder that will be created in the current configuration) into the website directory.
 
 Note: There is no CSS in this repository other than input files, nor are there images, so the pages will look broken! Use the CSS files from the Garden of Chaos repository to see how those are *supposed* to look, or just open the [actual page](https://gardenofchaos.xyz).
+
+## Usage
+
+To be used with the Haskell tool "Stack", by running "stack run" in the same directory. 

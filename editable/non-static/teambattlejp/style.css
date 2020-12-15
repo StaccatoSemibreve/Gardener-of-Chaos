@@ -141,7 +141,7 @@ div.grid {
 	overflow:hidden;
 	margin: auto;
 }
-.spoilerbutton[value="Show Past Games"] + .spoiler > div {
+.spoilerbutton[value="前の試合を表示"] + .spoiler > div {
 	display: none;
 }
 #archive-spoiler {

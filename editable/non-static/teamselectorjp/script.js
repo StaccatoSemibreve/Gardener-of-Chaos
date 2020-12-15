@@ -3,7 +3,7 @@ var i = 0;
 
 function updateTeams() {
 	if(teams[0].length > 0 && teams[1].length > 0)
-		document.getElementById("submitlink").href = `teambattle?seed=${(Math.floor(Math.random()*100000))}&team1=${teams[0].filter(n=>n!==undefined).join()}&team2=${teams[1].filter(n=>n!==undefined).join()}`;
+		document.getElementById("submitlink").href = `teambattlejp?seed=${(Math.floor(Math.random()*100000))}&team1=${teams[0].filter(n=>n!==undefined).join()}&team2=${teams[1].filter(n=>n!==undefined).join()}`;
 	else
 		document.getElementById("submitlink").href = "javascript:void(0);";
 }
