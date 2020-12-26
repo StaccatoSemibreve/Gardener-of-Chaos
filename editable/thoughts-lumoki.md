@@ -35,7 +35,9 @@ If at any point you don't understand any of these, I recommend going into practi
 | jA nAxC                                    | 2 damage + item                    | Needs jA to hit very high, *slightly* negative                     |
 | jC                                         | 1 damage                           | On prediction, combo on hit, item on block                         |
 
-**Note:** This was primarily tested using a cloud in the corner. Other juggling situations may be too low for certain options.
+**Notes:**
+- This was primarily tested using a cloud in the corner. Other juggling situations may be too low for certain options.
+- From roll spacing or closer, it is possible to jump on reaction to the cloud's lightning strike hitting vs a cornered opponent and bring out dice, then roll for a very safe, very strong ambiguous crossup.
 
 ---
 
