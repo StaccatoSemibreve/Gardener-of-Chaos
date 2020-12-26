@@ -43,6 +43,7 @@ A list of (hopefully useful) Fantasy Strike resources, for those looking to lear
 	* [Janet's Thoughts on Mixups](thoughts-mixups)
 * [Tidazi's Onimaru Guide:](https://docs.google.com/document/d/10Qo5JpuLyJFV4kVWf_UjONFbBZZjiSYBFEhwuQsN-bU/edit) A guide on the fundamentals of playing Onimaru effectively, written by an utterly fantastic Onimaru player.
 * A two-part guide (part [one](https://reddit.com/r/FantasyStrike/comments/hhbu0f/basics_with_beav_rook_you_like_a_hurricane/), part [two](https://reddit.com/r/FantasyStrike/comments/huee3g/basics_by_beav_rook_2_electric_rookalo_match_ups/)) by trapdoorbeaver - the first part dealing with his fundamental strategies and toolset, the second part dealing with his matchups.
+* [Full Combo Guide](https://docs.google.com/spreadsheets/d/148jh219L5jykaZ52B3O4HBBTMdH9xSBwIzrh45qihFM/edit?usp=sharing) by Hating Mirror - a spreadsheet containing the main combos for every character in the game.
 
   
 <a name="video"> [**Video Channels**](#video) (plus a recommended video or playlist from each): </a>
@@ -56,3 +57,4 @@ A list of (hopefully useful) Fantasy Strike resources, for those looking to lear
 * [CWheezy:](https://www.youtube.com/channel/UCpj9deH_-JE-_DskWe2z7Lw) A Youtube channel owned by CWheezy, a prominent and extremely experienced member of the Fantasy Strike community and tournament commentator - notably containing a [video explaining](https://www.youtube.com/watch?v=ufCC4YvEoyQ) the Grave vs Valerie matchup in a minute.
 * [Shobbs:](https://www.youtube.com/channel/UCRBSZBLV2dNF7KScF46usZw) A Youtube channel owned by shobbs (aka the rook hugger), a prominent and extremely experienced member of the Fantasy Strike community - notably containing a [video tutorial](https://www.youtube.com/watch?v=fE079_lLiRU) on playing Rook.
 * [Simon Braendli:](https://www.youtube.com/channel/UCIy3dZDnDgqlfS_HfEzK3iA) A Youtube channel owned by mysticjuicer, a notable member of the Fantasy Strike community - containing a [video guide](https://www.youtube.com/watch?v=k78JUCNarW4) on safe jumping as Rook.
+* [Alien Toy Shop:]([alientoyshop](https://www.youtube.com/channel/UCRY6Md_ILTt-g8Y2cqGd7cg)) A Youtube channel owned by ATS, one of the strongest Oni players around and frequent tournament winner - notably containing an [advice video](https://www.youtube.com/watch?v=KYaQOf5nQfY) for the Oni vs Midori matchup!
