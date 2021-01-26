@@ -21,6 +21,7 @@ If at any point you don't understand any of these, I recommend going into practi
 | [**Safemelon**](#safemelon)         | Yes           | Yes (back jump) | Yes          | Yes    | Safejump, combo on hit, item on block |
 | [**Whiff Roll**](#whiffroll)        | Yes           | Yes             | Yes          | Yes    | Needs mental advantage                |
 | [**Corner Whiff Roll**](#whiffroll) | Yes           | Yes             | Yes          | Rarely | Knowledge test, fun sideswitching     |
+| [**Meaty Jackpot**](#jackpot)       | Yes           | Yes             | Yes          | Rarely | Knowledge test, fun sideswitching     |
 
 <a name="juggle-corner" />
 
@@ -126,7 +127,7 @@ After a forward throw or yomi counter, walk forward for X amount of time, forwar
 
 <a name="whiffroll" />
 
-## <a href="#whiffroll" name="whiffroll">Whiff Roll:</a>
+## <a href="#whiffroll">Whiff Roll:</a>
 
 Next, we have the whiff roll oki, or the "Janet special" as Remy calls it (because I adore using this one!). It is mathematically eh, but it makes use of mental advantage (see [my thoughts on advantage](/thoughts-advantage)) to be extremely powerful.
 
@@ -137,6 +138,14 @@ Many opponents will try to throw you, either because they throw when they panic 
 Note that it's better to go for HR here if you expect a throw, which will counterhit the throw, but you don't get to loop it, you don't get free super meter, and you don't get the style points. Also, versus exclusively human Midori, if they try to throw you can neutral jump into jA into HR, for 3 damage!
 
 There is, of course, more to it - of course there is, it's psychological! I'll describe the likely responses per-character per-type-of-person here, but note that if they respond correctly then you should stop using it immediately.
+
+<a name="jackpot" />
+
+## <a href="#jackpot">Meaty Jackpot:</a>
+
+A very silly oki tool is the meaty jackpot. Against any character who doesn't have to block it due to having reversals or frame 1 parries, this is a terrible idea, but against anyone who does have to block it it can be okay sometimes. This can go very wrong, should the opponent be able to punish it on block, or should the items you shower your opponent in favour them more than you.
+
+To set it up off a forward throw or yomi counter, mash B then S. To set it up off a backward throw, walk up and space it manually.
 
 <a name="players" />
 

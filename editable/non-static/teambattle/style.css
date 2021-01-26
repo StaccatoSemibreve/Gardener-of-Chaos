@@ -2,17 +2,22 @@ body {
 	background-color: #1e1b19;
 }
 
-p, h1, h2 {
+p, h1, h2, details {
 	font-family: sans-serif;
 	color: #daba69;
 	line-height: 30px;
 }
 
-button, input {
+button, input, details {
 	font-family: sans-serif;
 	background-color: #000000;
 	color: #daba69;
 	border-radius: 10px;
+}
+
+details > summary {
+    height: auto;
+    margin: auto;
 }
 
 @media only screen and (min-width:1050px) {
@@ -137,21 +142,13 @@ div.grid {
 	width: 200px;
 	height: 40px;
 }
-.spoiler {
-	overflow:hidden;
-	margin: auto;
-}
-.spoilerbutton[value="Show Past Games"] + .spoiler > div {
-	display: none;
-}
-#archive-spoiler {
+#archive {
 	grid-area: archive;
 	margin: auto;
-}
-.archive {
 	display: grid;
 	grid-template-columns: 100px 100px 100px 100px;
 	grid-template-rows: 100px;
 	grid-template-areas: "left team1 team2 right";
 	height: 100px;
+    width: 400px;
 }
